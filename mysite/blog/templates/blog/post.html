@@ -1,0 +1,16 @@
+{% extends "personal/base.html" %}
+
+{% block header %}
+  <header class="blog-header">
+    <div class="container">
+      <a class="header-link" href="/blog"><h1 class="blog-title">Blog</h1></a>
+    </div>
+  </header>
+{% endblock %}
+
+{% block content %}
+<h2 class="post-title">{{post.title}}</h2>
+<div class="post-date">on {{post.date|date:'Y-m-d'}}</div>
+<p class="post-body">{{post.body|safe|linebreaks}}</p>
+
+{% endblock %}

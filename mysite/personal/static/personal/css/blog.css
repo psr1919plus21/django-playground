@@ -1,0 +1,27 @@
+.blog-header {
+  background: #393939;
+  padding: 24px 15px;
+  margin-bottom: 28px;
+}
+.blog-title {
+  color: #f7f7f7;
+  line-height: 42px;
+  margin: 0;
+}
+.post {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 24px;
+}
+.post_date {
+  font-size: 12px;
+}
+.post_title {
+  margin: 0;
+}
+.header-link {
+  color: #f7f7f7;
+}
+.header-link:hover {
+  text-decoration: none;
+}
